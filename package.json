@@ -1,0 +1,15 @@
+{
+  "name": "owo-bot-farmer",
+  "version": "1.0.0",
+  "description": "Cano tarafından yapılmıştır",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main.js"
+  },
+  "author": "Cano",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js-selfbot": "^12.0.2"
+  }
+}
