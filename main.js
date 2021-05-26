@@ -28,6 +28,14 @@ client.users.cache.get(bildirim).send("Owo Botundan doğrulama geldi\n\n"+ messa
 setTimeout(() => process.exit(), 2000)
 }
 })
+// Idle miner captcha atarsa client'i kapatma.
+client.on("message", async message => {
+	if(message.author.id === "518759221098053634" && message.content.includes("I've sent you a DM with a verification code, reply to my DM before continuing.") && message.channel.id === kanal) {
+console.log("Idle miner botundan doğrulama geldiği için bot kapatılıyor.")
+client.users.cache.get(bildirim).send("Idle miner Botundan doğrulama geldi\n\n"+ message.content).catch(err => process.exit())
+setTimeout(() => process.exit(), 2000)
+}
+})
 // Miner botunda kazma kırılırsa tamir ettirme
 client.on("message", message => {
 if(message.author.id === "520282851925688321" && message.content.includes("Kazman kırıldı!") && message.channel.id === kanal) {
