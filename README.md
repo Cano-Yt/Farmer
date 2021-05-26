@@ -6,6 +6,7 @@
 
 # Bilgilendirme
 * Proje owo botundan doğrulama bulursa kendini kapatıyor.
+* Proje Idle Miner botundan doğrulama bulursa kendini kapatıyor.
 * Projenin izinsiz paylaşılması/videosunun çekilmesi yasaktır.
 * <prefix>başlat @Bot veya <prefix>başlat hepsi yazarsanız ayarladığınız kanala mesaj atmaya başlar (Dikkat edin).
 * [Discord sunucusumuz](https://discord.gg/UbEZzyJhG8) 'da istek botları yazabilirsiniz.
