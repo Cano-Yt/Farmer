@@ -55,7 +55,6 @@ if(args[0].toLowerCase() === "hepsi") {
   	setInterval(() => mesajkanal.send("m!mine"), 5000)
     setInterval(() => mesajkanal.send("m!sell all"), 7000)
     setInterval(() => mesajkanal.send("!!bahis 50000"), 3000)
-    setInterval(() => mesajkanal.send("!!rainbow"), 3000)
     setInterval(() => mesajkanal.send(`owo hunt`), 21000)
     setInterval(() => mesajkanal.send(`owo battle`), 16000)
     return;
@@ -68,7 +67,6 @@ if(args[0].toLowerCase() === "hepsi") {
   }else if(etiket.id === "602585371489861634") {
    message.channel.send("Cortex Botunda kasma işemi başladı.")
    setInterval(() => mesajkanal.send("!!bahis 50000"), 3000)
-   setInterval(() => mesajkanal.send("!!rainbow"), 3000)
   }else if(etiket.id === "520282851925688321") {
    message.channel.send("Mining Simulator Botunda kasma işlemi başladı.")
    setInterval(() => mesajkanal.send("m!mine"), 5000)
